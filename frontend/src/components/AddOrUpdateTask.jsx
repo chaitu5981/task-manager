@@ -81,7 +81,7 @@ const AddOrUpdateTask = ({
         onSubmit={initialData ? updateTask : addTask}
       >
         <div className="flex flex-col gap-1">
-          <label for="title">Title</label>
+          <label htmlFor="title">Title</label>
           <input
             type="text"
             className="border border-gray-300 rounded-md p-2"
@@ -90,7 +90,7 @@ const AddOrUpdateTask = ({
           />
         </div>
         <div className="flex flex-col gap-1">
-          <label for="description">Description</label>
+          <label htmlFor="description">Description</label>
           <input
             type="text"
             className="border border-gray-300 rounded-md p-2"

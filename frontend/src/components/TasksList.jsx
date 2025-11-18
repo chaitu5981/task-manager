@@ -65,7 +65,7 @@ const TasksList = ({ reload, setReload, setInitialData, setVisible }) => {
       </div>
       {tasks.map((task) => (
         <div
-          key={task.id}
+          key={task._id}
           className="grid grid-cols-[25%_40%_20%_15%] border-b border-gray-500"
         >
           <div className="border-r border-gray-500 text-center p-1 break-words">
